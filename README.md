@@ -1,33 +1,51 @@
-# Tecnical test
 
-## Testing you tecnical skills
-Preguntas sobre conceptos generales de programación (verbales)
+# Mensajería Chat Express - Versión Web 
 
-## Code test
+La aplicación es un práctico sistema de mensajería interna para una pequeña empresa
 
-- Cree una página de inicio de sesión con opciones para crear un usuario si no existe ninguno. Utilice apodos para identificar al usuario.
-    - Cree una sala de chat, donde cargue el historial de mensajes y muestre los mensajes entrantes en tiempo real.
-    - Crear un cuadro de texto para escribir mensajes.
-    - Los mensajes deben mostrar información sobre el remitente y la hora.
 
-## Frontend, puedes usar el siguiente stack o el frontend de su preferencia:
-    Sugerencias:
-    - Javascript
-        - React
-        - Angular
-    - Html/Css (Material ui, Boostrap, Tailwind Css, etc)
-    - Testing (Bonus)
+---
 
-## Backend, puedes usar el siguiente stack o el backend de su preferencia:
-    - Aplicación (Rest API):
-        - Node.js (NestJs, Express), PHP, (Laravell) ó  Python (Django, Flask)
-        - Database: MySQL, Postgres, Mongodb o similar
-        - Testing (Bonus)
+## Cuál es el stack tecnológico que utilizamos?
 
-## Platform:
-    - Despliegue su app en una plataforma gratuita como Heroku, Netlify, Vercel, etc.
+- **Librería ReactJS**
+- **Supabase: plataforma que está basada en PostgreSQL**
+- **Lenguaje base de programación: Javascript**
+- **Aplicación de estilos al proyecto: CSS**
 
-## Para realizar este trabajo
-    - Cree un fork de este repositorio
-    - Crea un PR (Pull Request) con el código y en el Readme Agregue la URL de la aplicación
+---
 
+### Vista previa de la solución:
+
+#### Esta es la captura del Chat y sus mensajes👇👇:
+
+![](./Demo_Proy/Mensajeria_Express.png)
+
+Allí se puede observar el **Username** y el **Message** -- Como punto de ingreso para nuevos mensaje
+
+Los íconos del mensaje **son generados automáticamente** de acuerdo al nombre de usuario ingresado
+
+---
+
+#### Información adicional:
+
+- Usted puede enviar y recibir mensajes de cualquiera;
+- Su ícono de Avatar es generado automáticamente;
+- Su nombre es almacenado y recordado al momento de ingresar;
+
+
+# Entorno de ejecución
+
+Después de descargarlos usted puede instalar las dependencias con:
+
+`npm install`
+
+*Si usted no tiene el **vite** instalado!*
+
+`npm create vite@latest`
+
+Y luego lo corre con:
+
+`npm start`
+
+### Aplicación sujeta a actualizaciones de código y herramientas asociadas a su desarrollo.
