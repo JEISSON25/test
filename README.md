@@ -19,15 +19,11 @@ Preguntas sobre conceptos generales de programación (verbales)
     - Testing (Bonus)
 
 ## Backend, puedes usar el siguiente stack o el backend de su preferencia:
-    - Aplicación (Rest API):
         - Node.js (NestJs, Express), PHP, (Laravell) ó  Python (Django, Flask)
         - Database: MySQL, Postgres, Mongodb o similar
         - Testing (Bonus)
 
-## Platform:
-    - Despliegue su app en una plataforma gratuita como Heroku, Netlify, Vercel, etc.
 
 ## Para realizar este trabajo
-    - Cree un fork de este repositorio
-    - Crea un PR (Pull Request) con el código y en el Readme Agregue la URL de la aplicación
+    - Crea un PR (Pull Request) con el código y en el Readme
 
